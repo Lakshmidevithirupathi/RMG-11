@@ -1,0 +1,49 @@
+@startuml
+class Game {
+        The main game state.
+        --
+        - players
+        - projectBoards
+        - resourceBoards
+        - currentRound
+}
+
+enum Skill {
+        One of:
+        --
+        - Heart
+        - Diamond
+        - Club
+}
+
+class Resource {
+        One playing card.
+        --
+        - skill
+        - time
+}
+
+enum Role {
+        One of:
+        --
+        - Master
+        - PM
+        - RM
+        - Employee
+        - Manager
+}
+
+class Player {
+        - name
+        - role
+}
+
+class ProjectBoard {
+
+}
+
+class Project {
+        - requirements
+}
+
+@enduml

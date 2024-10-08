@@ -1,0 +1,11 @@
+*~
+*#
+*.bak
+*.old
+*.zip
+
+# Ignore Gradle project-specific cache directory
+.gradle
+.idea
+build
+

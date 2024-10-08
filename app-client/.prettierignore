@@ -1,0 +1,3 @@
+*.svg
+src/i18n/**/*.json
+!src/i18n/**/translations.json
